@@ -7,7 +7,8 @@
     'category': 'ALL',
     'depends': ['base', 'web', 'contacts'],
     'data': [
-
+            'security/ir.model.access.csv',
+            'views/travels_management_views.xml',
     ],
     'images': [
 

@@ -1,6 +1,6 @@
-from odoo import models,fields
+from odoo import fields, models
 
-class TravelsManagement(mlodels.Model):
+class TravelsManagement(models.Model):
     _name = 'travels.management'
     _description = 'Travels Management'
 
